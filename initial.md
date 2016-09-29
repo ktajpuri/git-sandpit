@@ -2,4 +2,9 @@
 
 Contact me on [Twitter](Http://twitter.com/ktajpuri)
 
+
 ### This is created in feature 2 branch
+
+### This is created in feature1 branch
+
+###### Merged conflicts
