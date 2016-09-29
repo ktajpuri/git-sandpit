@@ -5,7 +5,7 @@
 
 #### Defult Array uses `map`
 ```javascript
-var array=[1,2,3,4,5,6,6,7,8];
+var array=[1,2,3,4,5,6,6,7,8,9,18,11,23];
 array.map(function(val){
    console.log('Default array : '+val;) 
 });
@@ -15,8 +15,8 @@ array.map(function(val){
 #### Reduced Array uses `reduce`
 ```javascript
 var array=[1,2,3,4,5,6,6,7,8];
-array.map(function(val){
-   console.log('Default array : '+val;) 
+array.reduce(function(acc,curr){
+   return acc+curr;
 });
 ```
 
