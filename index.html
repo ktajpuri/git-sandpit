@@ -1,35 +1,35 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
-<script type="text/javascript">
-
-window.onload = function () {
-	var chart = new CanvasJS.Chart("chartContainer", {
-		theme: "theme2",//theme1
-		title:{
-			text: "Basic Column Chart - CanvasJS"              
-		},
-		animationEnabled: false,   // change to true
-		data: [              
-		{
-			// Change type to "bar", "area", "spline", "pie",etc.
-			type: "column",
-			dataPoints: [
-				{ label: "apple",  y: 10  },
-				{ label: "orange", y: 15  },
-				{ label: "banana", y: 25  },
-				{ label: "mango",  y: 30  },
-				{ label: "grape",  y: 28  }
-			]
-		}
-		]
-	});
-	chart.render();
-}
-</script>
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css" />
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
 </head>
-<body>
-<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<body ng-app>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>Github page</h1>
+	</div>
+	
+	<div class="row">
+		
+		<div class="col-md-6">
+			<form>
+				<label for="name">Name
+				<input type="text" ng-model="name" name="name" placeolder="name" class="form-control"/>
+				</label>
+				<input type="submit" class="btn btn-primary" value="Submit"/>
+			</form>
+		</div>
+		<div class="col-md-6">Hello : {{name}}</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+
 </body>
 </html>

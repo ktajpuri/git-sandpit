@@ -1,0 +1,17 @@
+{
+  "name": "git-pages",
+  "homepage": "https://github.com/ktajpuri/git-sandpit",
+  "authors": [
+    "kamlesh tajpuri <ktajpuri@gmail.com>"
+  ],
+  "description": "git page",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
