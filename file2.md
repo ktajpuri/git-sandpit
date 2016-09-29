@@ -1,4 +1,6 @@
-# This is file 2 created in branch f3
+# This is heading 1
+
+### changed in b1
 
 ## Hey ! I am more changes an important change to file2. Was changed in branch1.
 
@@ -11,3 +13,5 @@ $("#container").on('click',function(){
     }
 });
 ```
+
+![kamlesh](https://avatars0.githubusercontent.com/u/10725893?v=3)
