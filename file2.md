@@ -7,7 +7,7 @@ $("#container").on('click',function(){
     var name=["Kamlesh","Abhay"];
     name.forEach(val)
     {
-        console.log("Name is : "+val)
+        console.log("Namey is : "+val)
     }
 });
 ```
